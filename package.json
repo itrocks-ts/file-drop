@@ -1,0 +1,50 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"description": "Drag-and-drop enhancement for native file inputs",
+	"devDependencies": {
+		"@types/node": "^24.10",
+		"sass": "^1.95",
+		"typescript": "~5.9"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"*.css",
+		"*.d.ts",
+		"*.js"
+	],
+	"homepage": "https://it.rocks",
+	"keywords": [
+		"drag",
+		"drop",
+		"file",
+		"file-input",
+		"form",
+		"frontend",
+		"html",
+		"input",
+		"it.rocks",
+		"UI",
+		"upload",
+		"UX"
+	],
+	"license": "ISC",
+	"module": "./file-drop.js",
+	"name": "@itrocks/file-drop",
+	"optionalDependencies": {
+		"@itrocks/build": "latest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/file-drop.git"
+	},
+	"scripts": {
+		"build": "tsc && sass --no-source-map file-drop.scss:file-drop.css"
+	},
+	"type": "module",
+	"types": "./file-drop.d.ts",
+	"version": "0.1.0"
+}
